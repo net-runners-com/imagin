@@ -1,0 +1,21 @@
+STYLE PARAMETERS — every value is on a 0–1 scale; the anchors say exactly what 0 and 1 mean. Hit each value precisely.
+{
+ "atmospheric_haze": 0.10,          // 0 = perfectly clear air, crisp to the horizon | 1 = thick fog
+ "fine_detail_density": 0.85,       // 0 = flat simple paint | 1 = every surface covered in fine texture
+ "empty_calm_area": 0.25,           // share of the image left as calm, simply painted areas
+ "thin_line_density": 0.80,         // 0 = no linework | 1 = dense thin lines (wires, fittings, cracks, leaf edges)
+ "line_thickness": 0.25,            // 0 = hairline | 1 = thick bold outlines
+ "line_color_tint": 0.70,           // 0 = pure black lines | 1 = lines fully take the local color (color trace)
+ "value_contrast": 0.75,            // 0 = flat mid-grey | 1 = extreme black-to-white contrast
+ "dark_area_share": 0.33,           // share of the image in deep shadow
+ "sunlit_saturation": 0.65,         // 0 = bleached white light | 1 = fully saturated local color in sunlight
+ "hue_variety": 0.70,               // 0 = monochrome | 1 = every hue present
+ "shadow_edge_hardness": 0.75,      // 0 = soft blurred shadow edges | 1 = razor-sharp cel shadow edges
+ "specular_glints": 0.70,           // 0 = none | 1 = sparkling highlights everywhere (gravel, leaves, rails, windows)
+ "rim_light": 0.00,                 // 0 = no bright rim on silhouettes | 1 = every edge glows
+ "bloom": 0.20,                     // 0 = no glow | 1 = heavy glow around every bright area
+ "vignette": 0.55,                  // 0 = none | 1 = very dark corners
+ "sky_top_darkening": 0.05,         // 0 = sky evenly bright top to bottom | 1 = top of the sky nearly black
+ "split_tone": {"highlights": "warm yellow-orange", "highlight_strength": 0.20, "shadows": "blue-violet", "shadow_strength": 0.30},
+ "depth_brightness_rise": 0.45      // 0 = distance as dark as foreground | 1 = distance fades to white
+}

@@ -1,0 +1,17 @@
+STYLE AS EQUATIONS. d = distance from camera (0 = nearest object, 1 = horizon). r = distance from the image center (0 = center, 1 = corner). L = brightness in CIELAB L* (0 black … 100 white). Paint so these hold:
+
+1. Brightness vs distance (ground and objects):   mean L(d) = 38 + 14·d
+2. Darkest shadows vs distance:                   L_min(d) = 5 + 3·d        (almost no haze lift)
+3. Haze:                                          h(d) = 0.07·d²            (air is nearly perfectly clear)
+4. Detail density:                                ρ(d) = 1 − 0.6·d          (ρ=1: fine texture and thin lines everywhere)
+5. Line width:                                    w(d) = 1.5 px · (1 − 0.6·d); line color = 0.3·black + 0.7·local color
+6. Contrast:                                      std(L) = 25 over the image; area(L < 30) = 0.32 of the image
+7. Sunlit color:                                  C_lit = 0.9·local + 0.1·#FFE2B0   (keep saturation; do not bleach)
+8. Shadow color:                                  C_shadow = 0.7·local_dark + 0.3·#3E3A7A
+9. Shadow edge penumbra:                          p = 1–2 px  (hard cel-like edges under direct sun)
+10. Specular glints:                              N ≈ 500 small highlights per megapixel (gravel, leaves, rails, windows)
+11. Rim light on silhouettes:                     R = 0
+12. Vignette:                                     V(r) = 1 − 0.25·r²   (multiply brightness)
+13. Sky gradient:                                 L_sky(top) − L_sky(middle) ≥ −2  (sky not darkened toward the top)
+14. Bloom:                                        glow radius ≤ 6 px, intensity 0.2, only around lamps and the sun
+15. Hue variety:                                  ≥ 10 clearly different hues, unified by rules 7–8

@@ -1,0 +1,5 @@
+The look is defined by the control images, not by text:
+- Image 2 = DETAIL DENSITY MAP aligned to the photo: red = maximum fine texture and thin linework, yellow = medium, blue = simple flat paint. Follow it region by region.
+- Image 3 = VALUE PLAN aligned to the photo: paint each region at this brightness (black = deep shadow, light grey = bright). Keep the dark foreground mass.
+- Image 4 = PALETTE: use these colors in roughly these proportions (bar width = share); sunlit areas get a slight warm #FFE2B0 tint, shadows a blue-violet #3E3A7A tint.
+The control images are instructions only — do not copy their rainbow colors, grey tones, legends or text into the painting.

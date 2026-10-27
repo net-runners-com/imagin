@@ -1,0 +1,9 @@
+{"group":"CHARACTER night/dusk (t06,t08,t09,t11,t12,t13,t14,t19)",
+ "composition":"one character, waist-up or full, placed centre or on a third; railing / road lines leading behind; city skyline low in the frame",
+ "value_contrast":0.55,"dark_area_share":0.60,"white_point":"L*~80","fine_detail_density":0.35,"empty_calm_area":0.45,
+ "character_shading":"2-3 tone cel shading, thin dark line art (line_thickness 0.5), muted desaturated clothing",
+ "rim_light_on_hair_and_shoulders":0.6,"rim_light_on_hard_objects":0.0,
+ "sky":"night or dusk sky painted with visible directional brush strokes, dense small stars and fine noise; darker toward the top",
+ "shadow_color":"deep blue (hue ~250°)","highlight_color":"warm orange-yellow street lamps (hue ~60°)",
+ "background":"city lights heavily blurred into round bokeh","reflections":"wet ground / water reflecting lamps as vertical streaks",
+ "post":{"depth_of_field":0.60,"bloom":0.40,"vignette":0.65,"sky_top_darkening":0.60,"film_grain":0.30,"chromatic_aberration":0}}

@@ -1,0 +1,8 @@
+{"group":"DAY landscape (t01,t03,t05,t15,t18)",
+ "composition":"one-point perspective: road lines / rails / pole row converge to a vanishing point near the image center; sky fills ~50% of the frame; strong foreground detail",
+ "atmospheric_haze":0.08,"fine_detail_density":0.80,"empty_calm_area":0.28,"thin_line_density":0.75,"line_thickness":0.25,"line_color_tint":0.70,
+ "value_contrast":0.85,"dark_area_share":0.35,"white_point":"sunlit clouds near-white","sunlit_saturation":0.60,"hue_variety":0.70,
+ "shadow_color":"clear blue (hue ~230°), low saturation","shadow_edge_hardness":0.80,"cast_shadows":"hard dappled tree shadows across the road/platform",
+ "sun_elevation_deg":30,"specular_glints":0.65,"rim_light_on_hard_objects":0.0,"rim_light_on_foliage":0.2,
+ "sky":"deep clean blue gradient, cumulus built from many small painterly brush dabs, white tops",
+ "post":{"bloom":0.35,"vignette":0.55,"film_grain":0.15,"depth_of_field":0.10,"sky_top_darkening":0.05,"chromatic_aberration":0}}

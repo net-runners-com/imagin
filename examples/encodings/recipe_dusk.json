@@ -1,0 +1,10 @@
+{"group":"DUSK landscape (t02,t04,t07,t10,t16,t17)",
+ "composition":"sky ~55-60% of the frame and the only large light mass; ground and buildings as a dark band below; leading lines (street / pole row) to a central vanishing point",
+ "atmospheric_haze":0.08,"fine_detail_density":0.55,"empty_calm_area":0.35,"thin_line_density":0.40,"line_thickness":0.40,"line_color_tint":0.70,
+ "value_contrast":0.80,"dark_area_share":0.55,"white_point":"L*~85 (no pure white except the sun)","sunlit_saturation":0.85,
+ "sky":"salmon-pink / orange / red cloud masses with dark violet undersides against a blue-violet sky, dappled painterly clouds",
+ "shadow_color":"blue-violet to magenta (hue ~300°)","shadow_edge_hardness":0.35,
+ "light_accents":"a few small warm point lights (street lamps, lit windows, tail lights, the sun with a star-burst), bloom only right around them",
+ "reflections":"wet asphalt / water mirror the sky and the lamps as long vertical streaks",
+ "rim_light_on_hard_objects":0.0,
+ "post":{"bloom":0.30,"vignette":0.45,"film_grain":0.35,"depth_of_field":0.05,"chromatic_aberration":0}}
